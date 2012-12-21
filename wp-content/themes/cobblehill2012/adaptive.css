@@ -158,6 +158,11 @@
 	
 	input, textarea { -webkit-appearance:none; -webkit-border-radius:0px; }
 	input.wpcf7-submit, input[type="submit"] { -webkit-appearance:none; }
+	
+	#footer-widget-area #second ul li ul#instagram_widget li a {
+	    height: 47px;
+	    width: 47px;
+	}
 }
 
 /* MOBILE
