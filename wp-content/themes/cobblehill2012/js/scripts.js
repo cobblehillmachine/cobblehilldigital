@@ -5,7 +5,9 @@ $(document).ready(function() {
 	  slideResize: true,
 	  containerResize: false,
 	  width: '100%',
-	  fit: 1
+	  fit: 1,
+	  pause:true,
+	  speed:7000
 	});
 	
 		$("a.work span").css({"opacity" : 0});
