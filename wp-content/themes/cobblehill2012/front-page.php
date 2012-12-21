@@ -78,7 +78,7 @@ $args = array(
 query_posts( $args ); ?>
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
         <a href="<?php the_permalink(); ?>" class="work">
-        <img src="<?php echo get_post_meta($post->ID, 'Work Thumbnail', true); ?>" />
+        <img src="<?php the_field('work_thumbnail'); ?>" alt="" />
           <span>
             <div class="title">
               <h4><?php the_title(); ?></h4>
