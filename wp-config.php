@@ -16,7 +16,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'cobblehilldigital_development');
+define('DB_NAME', 'cobblehilldigital_production');
 
 /** MySQL database username */
 define('DB_USER', 'cobblehill');
