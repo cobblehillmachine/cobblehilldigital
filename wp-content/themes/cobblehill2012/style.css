@@ -205,7 +205,7 @@ div.menu li {
 *******************************************************************************/
 .home #wrapper { padding-top: 0; }
 
-#slideshow-wrap-outer { background: url(images/bg-pattern.gif); padding-top: 70px; position: relative; }
+#slideshow-wrap-outer { background: url(images/bg-pattern.gif); padding-top: 70px; position: relative; overflow: hidden;}
 #slideshow-wrap { width: 1200px; height: 470px; margin: 0 auto; }
 #slideshow { background: #ffffff; }
 .slide { position: relative; }
