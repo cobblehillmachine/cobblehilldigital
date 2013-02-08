@@ -10,6 +10,7 @@
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_directory' ); ?>/adaptive.css" />
 <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/js/modal/reveal.css">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/favicon.ico" />
 
 <!-- javascript -->	
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
