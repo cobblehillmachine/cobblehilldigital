@@ -21,7 +21,7 @@
 <?php endwhile; ?>
 
 		<?php query_posts(array('post_type' => 'Team Members', 'order' => 'ASC', 'posts_per_page' => 20)); ?>
-		<div class="main" class="clear-block">			
+		<div class="main clear-block">			
 			<div class="clear-block">
 				<div class="left">
 					<h2>Our team</h2>
@@ -56,7 +56,7 @@
 			</div>
 		</div>	
 		<?php query_posts(array('post_type' => 'Past Clients', 'order' => 'ASC', 'posts_per_page' => 20)); ?>
-		<div class="main" class="clear-block">		
+		<div class="main clear-block">		
 			<div class="clear-block">
 				<div class="left">
 					<h2>Past Clients</h2>
@@ -71,6 +71,7 @@
 						</div>
 					<?php endwhile;  wp_reset_query(); ?>
 				</div>		
-			</div>
+	
+		</div>
+		<?php get_footer(); ?>
 	</div>
-<?php get_footer(); ?>
