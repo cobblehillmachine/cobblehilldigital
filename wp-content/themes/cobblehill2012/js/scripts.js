@@ -1,5 +1,16 @@
 $(document).ready(function() {
-		
+	$('body').delay(2000).css('display', 'block');
+	$('.main .team-member .single-cont').each(function(i) {
+		if ((i + 1) % 3 == 0) {$(this).addClass('last');}
+	});
+	$('.main .past-client .single-cont').each(function(i) {
+		if ((i + 1) % 3 == 0) {$(this).addClass('last');}
+	});
+	$('img[title]').each(function() { $(this).removeAttr('title'); });
+	$('.team-member .img-cont').live({
+		mouseenter: function(){$(this).children('.overlay').show();},
+		mouseleave: function(){$(this).children('.overlay').hide();}
+	});
     $('#slideshow').cycle({
 		fx: 'fade',
 	  slideResize: true,

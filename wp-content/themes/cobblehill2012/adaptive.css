@@ -3,7 +3,7 @@
 @media only screen and (min-width: 992px) and (max-width: 1100px) and (orientation:landscape) {	
 	#wrapper { width: 100%; }
 	#slideshow-wrap, #slideshow, #slideshow a, .contact-map, .single .header-image { width: 1024px; }	
-	#featured-work-wrap, #services, #main, #footer-widget-area, .work-headline-wrap h2 { width: 960px; margin: 0 auto; }
+	#featured-work-wrap, #services, #main, #footer-widget-area, .work-headline-wrap h2, .main { width: 960px; margin: 0 auto; }
 	img { max-width: 100%; }
 	.clients a { width: 33%; }
 	
@@ -36,7 +36,7 @@
 	#homepage-widget-area #second ul li a, 	#homepage-widget-area #third ul li a { font-size: 16px; }
 	#homepage-widget-area p { font-size: 12px; line-height: 18px; }
 	
-	#left, #right { width: 450px; }
+	#left, #right, .main .left, .main .right { width: 450px; }
 	
 	#service-lines .service { width: 334px; }
 	
@@ -80,7 +80,7 @@
 	#wrapper { width: 100%; }
 	.single #wrapper { padding-top: 45px; }
 	#slideshow-wrap, #slideshow, #slideshow a, .contact-map, .single .header-image, .single .header-image { width: 768px; }	
-	#featured-work-wrap, #services, #main, #footer-widget-area, .work-headline-wrap h2 { width: 720px; margin: 0 auto; }
+	#featured-work-wrap, #services, #main, #footer-widget-area, .work-headline-wrap h2, .main { width: 720px; margin: 0 auto; }
 	img { max-width: 100%; }
 	#homepage-widget-area #first { width: 100%; border-right: 0; border-bottom: 1px solid #c1c0c0; height: auto; padding: 30px 0; }
 	#homepage-widget-area #first ul { width: 695px; margin: 0 auto; border-right: 0; }
@@ -123,8 +123,8 @@
 	#homepage-widget-area #second ul li a, 	#homepage-widget-area #third ul li a { font-size: 14px; }
 	#homepage-widget-area p { font-size: 12px; line-height: 18px; }
 	
-	#left, #right { width: 350px; }
-	#left h2, h2 { font-size: 28px; width: auto; }
+	#left, #right, .main .left, .main .right { width: 350px; }
+	#left h2, h2, .left h2 { font-size: 28px; width: auto; }
 	.work-headline-wrap h2 { font-size: 28px; }
 	 
 	#service-lines .service { width: auto; }
@@ -173,7 +173,7 @@
 	#wrapper { width: 100%; }
 	.single #wrapper { padding-top: 45px; }
 	#slideshow-wrap, #slideshow, #slideshow a, .contact-map, .single .header-image, .single .header-image { width: 585px; }	
-	#featured-work-wrap, #services, #main, #footer-widget-area, .work-headline-wrap h2, .work-slides { width: 565px; margin: 0 auto; }
+	#featured-work-wrap, #services, #main, #footer-widget-area, .work-headline-wrap h2, .work-slides, .main { width: 565px; margin: 0 auto; }
 	img { max-width: 100%; }
 	#homepage-widget-area #first { width: 100%; border-right: 0; border-bottom: 1px solid #c1c0c0; height: auto; padding: 30px 0; }
 	#homepage-widget-area #first ul { width: 695px; margin: 0 auto; border-right: 0; }
@@ -217,9 +217,9 @@
 	#homepage-widget-area #second ul li a, 	#homepage-widget-area #third ul li a { font-size: 14px; }
 	#homepage-widget-area p { font-size: 12px; line-height: 18px; }
 	
-	#left, #right { width: 100%; }
+	#left, #right, .main .left, .main .right { width: 100%; }
 	.page-id-7 #left img { display: none; }
-	#left h2, h2  { font-size: 22px; line-height: 24px; font-weight: 500; width: auto; }
+	#left h2, h2, .left h2  { font-size: 22px; line-height: 24px; font-weight: 500; width: auto; }
 	.work-headline-wrap h2 { font-size: 22px; line-height: 24px; font-weight: 500; }
 	 
 	#service-lines .service { width: auto; padding: 35px 0 30px 75px; }
@@ -270,7 +270,7 @@
 @media only screen and (max-width: 630px) {
 	#wrapper { width: 100%; padding-top: 40px; }
 	#slideshow-wrap, #slideshow, #slideshow a, .single .header-image, .single .header-image { width: 300px; }	
-	#featured-work-wrap, #services, #main, #footer-widget-area, .work-headline-wrap h2, .work-slides, #homepage-widget-area #first ul, #homepage-widget-area #second, #footer-widget-area #first { width: 290px; margin: 0 auto; }
+	#featured-work-wrap, #services, #main, #footer-widget-area, .work-headline-wrap h2, .work-slides, #homepage-widget-area #first ul, #homepage-widget-area #second, #footer-widget-area #first, .main { width: 290px; margin: 0 auto; }
 	.clients a { width: 290px; }
 	
 	#header { position: static; height: auto; }
