@@ -28,13 +28,15 @@
 					<h3>We’re hiring</h3>
 					<p>Are you a self-motivated, highly creative individual who </br> thrives under pressure? We want you! We’re currently on </br> the hunt for:</p>
 
-					<p><a href="/blog/project-manager">Project Manager</a></p>
+					<p>
+						<a href="/blog/project-manager">Project Manager</a><br/>
 
-					<p><a href="/blog/web-developer">Web Developer</a></p>
+						<a href="/blog/web-developer">Web Developer</a><br/>
 
-					<p><a href="/blog/design-intern">Design Intern</a></p>
+						<a href="/blog/design-intern">Design Intern</a><br/>
 
-					<p><a href="/blog/web-development-intern">Web Development Intern</a></p>
+						<a href="/blog/web-development-intern">Web Development Intern</a>
+					</p>
 				</div>
 				<div class="right team-member">
 					<?php while ( have_posts() ) : the_post(); ?>
