@@ -309,7 +309,7 @@ span.button p, p.button {
 }
 
 #services-wrap { border-top: 1px solid #c1c0c0; border-bottom: 1px solid #c1c0c0; padding: 35px 0 20px 0; }
-#services { width: 1000px; margin: 0 auto; }
+#home #services { width: 1000px; margin: 0 auto; }
 
 .service {
 	float: left;
