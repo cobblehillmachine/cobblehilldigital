@@ -29,7 +29,7 @@
 					<p>Are you a self-motivated, highly creative individual who </br> thrives under pressure? We want you! We’re currently on </br> the hunt for:</p>
 
 					<p>
-						<a href="/blog/project-manager">Project Manager</a><br/>
+						<a href="/blog/project-manager-intern">Project Manager Intern</a><br/>
 
 						<a href="/blog/web-developer">Web Developer</a><br/>
 
