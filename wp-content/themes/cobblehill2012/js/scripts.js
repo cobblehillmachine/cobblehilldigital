@@ -3,8 +3,10 @@ $(document).ready(function() {
 	$('img[title]').each(function() { $(this).removeAttr('title'); });
 	$('.team-member .img-cont').on({
 		mouseenter: function(){$(this).children('.overlay').show();},
-		mouseleave: function(){$(this).children('.overlay').hide();}
+		mouseleave: function(){$(this).children('.overlay').hide();},
+
 	});
+
     $('#slideshow').cycle({
 		fx: 'fade',
 	  slideResize: true,
