@@ -17,7 +17,7 @@
       </ul>
     </div>
     <div class="clear-block">
-    <?php query_posts(array('cat' => '11,16,13,15,12,14', 'post_type' => 'post', 'posts_per_page' => 15)); while (have_posts()) { the_post(); ?>
+    <?php query_posts(array('cat' => '11,16,13,15,12,14', 'post_type' => 'post', 'posts_per_page' => 100)); while (have_posts()) { the_post(); ?>
               <a href="<?php the_permalink(); ?>" class="work">
               <img src="<?php the_field('work_thumbnail'); ?>" alt="" />
                 <span>
