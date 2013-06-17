@@ -53,7 +53,28 @@ $(document).ready(function() {
 		}
 	});
  
+	//Calculate the height of <header>
+	//Use outerHeight() instead of height() if have padding
+	var aboveHeight = $('.header-image-wrap').height();
 
+//when scroll
+	$(window).scroll(function(){
+
+		//if scrolled down more than the header’s height
+					if ($(window).scrollTop() > aboveHeight){
+
+		// if yes, add “fixed” class to the <nav>
+		// add padding top to the #content
+		//      (value is same as the height of the nav)
+					$('.single-content').addClass('fixed');
+
+					} else {
+
+		// when scroll up or less than aboveHeight,
+		//      remove the “fixed” class, and the padding-top
+					$('.single-content').removeClass('fixed');
+					}
+	});
 				
 	$(document).ready(function(){
 		$("label").inFieldLabels();
