@@ -381,7 +381,7 @@ img.map { position: absolute; right: 30%; }
 	line-height: 33px;
 	letter-spacing: 4px; 
 	padding-bottom: 25px;
-	width: 375px;
+	/*width: 375px;*/
 }
 
 #right { float: right; width: 490px;  }
