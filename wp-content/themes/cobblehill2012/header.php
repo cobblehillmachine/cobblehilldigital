@@ -3,8 +3,9 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta name="description" content="Cobble Hill is a Web Design, Graphic Design, Advertising, Digital Marketing agency in Charleston, SC" /> 
+<!-- <meta name="description" content="Cobble Hill is a Web Design, Graphic Design, Advertising, Digital Marketing agency in Charleston, SC" />  -->
 
+<!-- <meta name="keywords" content="Cobble Hill, Cobble Hill Digital, Digital marketing, Charleston, SC, Web Design, Web Programming, Graphic Design, Interactive Design, Print Design, Creative, Creative Studio, Ad Agency" /> -->
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 
