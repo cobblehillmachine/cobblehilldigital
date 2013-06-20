@@ -206,6 +206,9 @@ div.menu li {
 			HOME
 *******************************************************************************/
 .home #wrapper { padding-top: 0; }
+#video-wrap {margin:70px 0 25px 0; float:left; width:100%;}
+#video_background {width:100% !important; height:auto !important;}
+
 
 #slideshow-wrap-outer { background: url(images/bg-pattern.gif); padding-top: 70px; position: relative;}
 #slideshow-wrap { width: 1200px; height: 470px; margin: 0 auto; }

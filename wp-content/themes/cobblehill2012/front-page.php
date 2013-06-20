@@ -22,8 +22,15 @@
 				</div><!-- #first .widget-area -->
       </div>
 <?php endif; ?>
-  
-<div id="slideshow-wrap-outer" class="clear-block">
+
+  <div id="video-wrap">
+	<video id="video_background" preload="auto" autoplay="true" loop="loop" volume="0"> 
+	<source src="<?php echo get_template_directory_uri(); ?>/videos/test2.webm" type="video/webm"> 
+	<source src="<?php echo get_template_directory_uri(); ?>/videos/test2.mp4" type="video/mp4"> 
+	Video not supported </video>
+    </div>
+
+<!-- <div id="slideshow-wrap-outer" class="clear-block">
   <div id="slideshow-wrap">
     <div id="slideshow">
       <a href="<?php echo home_url( '/' ); ?>about">
@@ -31,32 +38,32 @@
         	<div class="slide-desc one">
             <h2>We Are a Creative <br /><strong>Agency &amp; Design Studio</strong></h2>
             <div class="slide-button">Learn More About Us</div>
-          </div><!-- slide desc -->
+          </div>
           <img src="<?php bloginfo( 'template_directory' ); ?>/images/slides/01-about-slide.jpg">
-        </div><!-- slide -->
+        </div>
       </a>
       <a href="<?php echo home_url( '/' ); ?>work">
         <div class="slide">
         	<div class="slide-desc two">
             <h2>We Create <br /><strong>Exceptional Experiences</strong></h2>
             <div class="slide-button">View Our Work</div>
-          </div><!-- slide desc -->
+          </div>
           <img src="<?php bloginfo( 'template_directory' ); ?>/images/slides/02-work-slide.jpg">
-        </div><!-- slide -->
+        </div>
       </a>
       <a href="<?php echo home_url( '/' ); ?>services">
         <div class="slide">
         	<div class="slide-desc three">
             <h2>We Bring Brands &amp; <br /><strong>Businesses To Life</strong></h2>
             <div class="slide-button">View Our Services</div>
-          </div><!-- slide desc -->
+          </div>
           <img src="<?php bloginfo( 'template_directory' ); ?>/images/slides/03-services-slide.jpg">
-        </div><!-- slide -->
+        </div>
       </a>
-    </div><!-- slideshow -->
-  </div><!-- slideshow wrap -->
+    </div>
+  </div>
   <img src="<?php bloginfo( 'template_directory' ); ?>/images/elephant-semi-circle.png" class="elephant">
-</div><!-- slideshow wrap outer -->
+</div> -->
 
 <script>
 	$(function() {	

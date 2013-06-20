@@ -1,6 +1,27 @@
+var isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function() {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPod/i);  // I removed Ipad for the splash. May need to put it back | iPad |
+    },
+    Opera: function() {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i);
+    },
+    any: function() {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+    }
+};
 $(document).ready(function() {
-
-
+ 	if(isMobile.any()) {
+		$('#video-wrap').remove();
+	}
 	$(window).scroll(function(){
 		var aboveHeight = $('.header-image-wrap').height();
 		var slidesHeight = $('.work-slides').height();
@@ -22,3 +43,4 @@ $(document).ready(function() {
 	});
 
 });
+
