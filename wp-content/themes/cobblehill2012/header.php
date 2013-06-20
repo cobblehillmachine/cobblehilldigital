@@ -14,7 +14,7 @@
 <link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/favicon.ico" />
 
 <!-- javascript -->	
-<script src="http://api.html5media.info/1.1.5/html5media.min.js"></script>
+<!-- <script src="http://api.html5media.info/1.1.5/html5media.min.js"></script> -->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/js/mytheme.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/js/cycle.js"></script>
