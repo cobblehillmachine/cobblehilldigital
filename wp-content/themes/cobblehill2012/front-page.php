@@ -22,16 +22,21 @@
 				</div><!-- #first .widget-area -->
       </div>
 <?php endif; ?>
+<?php while ( have_posts() ) : the_post(); ?>
+	 <div id="video-wrap">
+		<?php the_content(); ?>
+	 </div>
+<?php endwhile; ?>
 
-  <div id="video-wrap">
-	
-	<video id="video_background" preload="auto" autoplay="true" loop="loop" volume="0"> 
-	<source src="<?php echo get_template_directory_uri(); ?>/videos/test2.webm" type="video/webm"> 
-	<source src="<?php echo get_template_directory_uri(); ?>/videos/test2.mp4" type="video/mp4">
-	<source src="<?php echo get_template_directory_uri(); ?>/videos/test2.ogv" type="video/ogg">  
-	Video not supported </video>
+  <!-- <div id="video-wrap">
+ 	
+ 	<video id="video_background" preload="auto" autoplay="true" loop="loop" volume="0"> 
+ 	<source src="<?php echo get_template_directory_uri(); ?>/videos/test2.webm" type="video/webm"> 
+ 	<source src="<?php echo get_template_directory_uri(); ?>/videos/test2.mp4" type="video/mp4">
+ 	<source src="<?php echo get_template_directory_uri(); ?>/videos/test2.ogv" type="video/ogg">  
+ 	Video not supported </video>
 
-    </div>
+     </div> -->
 
 <!-- <div id="slideshow-wrap-outer" class="clear-block">
   <div id="slideshow-wrap">
