@@ -207,8 +207,8 @@ div.menu li {
 *******************************************************************************/
 .home #wrapper { padding-top: 0; }
 #video-wrap {margin:70px 0 25px 0; float:left; width:100%;}
-video, .video-js {width:100% !important; height:auto !important; position:relative !important; background:none !important;}
-.vjs-default-skin .vjs-controls, .vjs-loading-spinner {display:none !important;}
+video {width:100% !important; height:auto !important;}
+
 
 #slideshow-wrap-outer { background: url(images/bg-pattern.gif); padding-top: 70px; position: relative;}
 #slideshow-wrap { width: 1200px; height: 470px; margin: 0 auto; }
