@@ -77,6 +77,7 @@
 /* TABLET
 --------------------------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	#video-wrap .home-caption {top:15%; left:30px;}
 	#wrapper { width: 100%; }
 	.single #wrapper { padding-top: 45px; }
 	#slideshow-wrap, #slideshow, #slideshow a, .contact-map, .single .header-image, .single .header-image { width: 768px; }	
@@ -170,6 +171,7 @@
 /* MOBILE
 --------------------------------------------- */
 @media only screen and (max-width: 767px) {
+	#video-wrap .home-caption {top:13%; left:30px;}
 	#wrapper { width: 100%; }
 	.single #wrapper { padding-top: 45px; }
 	#slideshow-wrap, #slideshow, #slideshow a, .contact-map, .single .header-image, .single .header-image { width: 585px; }	
@@ -268,6 +270,7 @@
 /* MOBILE - NARROW
 --------------------------------------------- */
 @media only screen and (max-width: 630px) {
+	#video-wrap {display:none;}
 	#wrapper { width: 100%; padding-top: 40px; }
 	#slideshow-wrap, #slideshow, #slideshow a, .single .header-image, .single .header-image { width: 300px; }	
 	#featured-work-wrap, #home #services, #main, #footer-widget-area, .work-headline-wrap h2, .work-slides, #homepage-widget-area #first ul, #homepage-widget-area #second, #footer-widget-area #first, .main { width: 290px; margin: 0 auto; }
@@ -323,4 +326,8 @@
 	
 	form.wpcf7-form input, input { width: 280px; }
 	span.wpcf7-form-control-wrap { overflow: hidden; }
+}
+
+@media only screen and (min-width: 1800px) {
+	#video-wrap .home-caption {top:40%;}
 }

@@ -25,14 +25,20 @@
 
 
   <div id="video-wrap">
- 	
- 	<video id="video_background" preload="auto" autoplay="true" loop="loop" volume="0"> 
- 	<source src="<?php echo get_template_directory_uri(); ?>/videos/test.webm" type="video/webm"> 
- 	<source src="<?php echo get_template_directory_uri(); ?>/videos/test.mp4" type="video/mp4">
- 	<source src="<?php echo get_template_directory_uri(); ?>/videos/test.ogv" type="video/ogg">  
- 	Video not supported </video>
+ 		<div class="home-caption">
+	        <h2>We Are a Creative <br /><strong>Agency &amp; Design Studio</strong></h2>
+	        <div onclick="scrollToWork();" class="slide-button">Learn More About Us</div>
+	    </div>
+ 	<video id="video_background" preload="auto" autoplay="true" loop="loop" volume="0" muted="true"> 
+	 	<source src="<?php echo get_template_directory_uri(); ?>/videos/cobblehill5.webm" type="video/webm"> 
+	 	<source src="<?php echo get_template_directory_uri(); ?>/videos/cobblehill5.mp4" type="video/mp4">
+	 	<source src="<?php echo get_template_directory_uri(); ?>/videos/cobblehill5.ogv" type="video/ogg">  
+	 	Video not supported 
 
-     </div>
+	</video>
+
+
+  </div>
 
 <!-- <div id="slideshow-wrap-outer" class="clear-block">
   <div id="slideshow-wrap">
@@ -70,12 +76,16 @@
 </div> -->
 
 <script>
+function scrollToWork() {
+	$('body').scrollTo($('#services-wrap'), 1000 );
+}
 	$(function() {	
 		$("#slideshow a").hover(function(){
 		$(".slide-button").toggleClass("rollover");
 	});
 	
 	}); 
+
 </script>
   
   <div id="featured-work-wrap" class="clear-block">

@@ -206,9 +206,11 @@ div.menu li {
 			HOME
 *******************************************************************************/
 .home #wrapper { padding-top: 0; }
-#video-wrap {margin:70px 0 25px 0; float:left; width:100%;}
+#video-wrap {margin:70px 0 25px 0; width:100%;}
 video {width:100% !important; height:auto !important;}
-
+#video-wrap .home-caption {position:absolute; top:22%; left:50px; color:#fff;}
+#video-wrap .slide-button {cursor:pointer;}
+#video-wrap .slide-button:hover { color: #ffffff; background: #c84927; }
 
 #slideshow-wrap-outer { background: url(images/bg-pattern.gif); padding-top: 70px; position: relative;}
 #slideshow-wrap { width: 1200px; height: 470px; margin: 0 auto; }

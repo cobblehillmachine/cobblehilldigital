@@ -18,7 +18,10 @@ var isMobile = {
         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
     }
 };
+
+
 $(document).ready(function() {
+
  	if(isMobile.any()) {
 		$('#video-wrap').remove();
 	}
@@ -41,6 +44,8 @@ $(document).ready(function() {
 
 			}
 	});
+	var videoH = $('#video-wrap').height();
+	//$('#video-wrap').css({'height': videoH});
 
 });
 
