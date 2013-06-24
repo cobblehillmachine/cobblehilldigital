@@ -30,9 +30,9 @@
 	        <div onclick="scrollToWork();" class="slide-button">Learn More About Us</div>
 	    </div>
  	<video id="video_background" preload="auto" autoplay="true" loop="loop" volume="0" muted="true"> 
+		<source src="<?php echo get_template_directory_uri(); ?>/videos/cobblehill5.mp4" type="video/mp4">	
 	 	<source src="<?php echo get_template_directory_uri(); ?>/videos/cobblehill5.webm" type="video/webm"> 
-	 	<source src="<?php echo get_template_directory_uri(); ?>/videos/cobblehill5.mp4" type="video/mp4">
-	 	<source src="<?php echo get_template_directory_uri(); ?>/videos/cobblehill5.ogv" type="video/ogg">  
+	 	<source src="<?php echo get_template_directory_uri(); ?>/videos/cobblehill5.ogg" type="video/ogg">  
 	 	Video not supported 
 
 	</video>
