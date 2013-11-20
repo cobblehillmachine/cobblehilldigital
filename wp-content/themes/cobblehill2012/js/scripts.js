@@ -14,7 +14,7 @@ $(document).ready(function() {
 	  width: '100%',
 	  fit: 1,
 	  pause:true,
-	  speed:7000
+	  speed:1500
 	});
 	
 		$("a.work span").css({"opacity" : 0});
