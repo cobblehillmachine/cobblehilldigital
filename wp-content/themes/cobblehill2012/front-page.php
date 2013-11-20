@@ -24,7 +24,7 @@
 <?php endif; ?>
 
 
-  <div id="video-wrap">
+  <!-- <div id="video-wrap">
  		<div class="home-caption">
 	        <h2>We Are a Creative <br /><strong>Agency &amp; Design Studio</strong></h2>
 	        <div onclick="scrollToWork();" class="slide-button">Learn More About Us</div>
@@ -38,9 +38,9 @@
 	</video>
 
 
-  </div>
+  </div> -->
 
-<!-- <div id="slideshow-wrap-outer" class="clear-block">
+<div id="slideshow-wrap-outer" class="clear-block">
   <div id="slideshow-wrap">
     <div id="slideshow">
       <a href="<?php echo home_url( '/' ); ?>about">
@@ -49,7 +49,7 @@
             <h2>We Are a Creative <br /><strong>Agency &amp; Design Studio</strong></h2>
             <div class="slide-button">Learn More About Us</div>
           </div>
-          <img src="<?php bloginfo( 'template_directory' ); ?>/images/slides/01-about-slide.jpg">
+          <img src="<?php bloginfo( 'template_directory' ); ?>/images/slides/about-slide1.jpg">
         </div>
       </a>
       <a href="<?php echo home_url( '/' ); ?>work">
@@ -73,7 +73,7 @@
     </div>
   </div>
   <img src="<?php bloginfo( 'template_directory' ); ?>/images/elephant-semi-circle.png" class="elephant">
-</div> -->
+</div>
 
 <script>
 function scrollToWork() {
